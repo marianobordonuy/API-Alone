@@ -1,0 +1,25 @@
+{
+  "name": "api-alone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
